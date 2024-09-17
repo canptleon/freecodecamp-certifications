@@ -12,32 +12,6 @@ This repository contains my solutions for the **freeCodeCamp** certification pro
 
 Each certification has its own folder, and inside each folder, you will find the certification projects along with their own `README.md` files. These contain details about the project, the tools used, and a description of the solution.
 
-### Example Structure:
-
-freecodecamp-certifications/
-│
-├── JavaScript-Algorithms-and-Data-Structures/
-│   ├── Project1/
-│   │   ├── index.html
-│   │   ├── script.js
-│   │   └── README.md
-│   ├── Project2/
-│   └── ...
-│
-├── Responsive-Web-Design/
-│   ├── Project1/
-│   │   ├── index.html
-│   │   ├── style.css
-│   │   └── README.md
-│   └── ...
-│
-└── Front-End-Development-Libraries/
-    ├── Project1/
-    │   ├── index.html
-    │   ├── ReactApp.js
-    │   └── README.md
-    └── ...
-
 ## How to Use
 
 - Browse through the folders to view my solutions for each certification project.
