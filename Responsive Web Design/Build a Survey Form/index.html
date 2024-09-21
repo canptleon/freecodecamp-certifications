@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form id="survey-form">
+    <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out this survey to help us improve our service.</p>
+    <label id="name-label" for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Name" required>
+    <label id="email-label" for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Email" required>
+    <label id="number-label" for="number">Age:</label>
+    <input type="number" id="number" placeholder="Age" name="number" min="18" max="100" required>
+
+    <label for="dropdown">What is your favorite feature of our service?</label>
+    <select id="dropdown" name="dropdown" required>
+      <option value="" disabled selected>Select an option</option>
+      <option value="user-interface">User Interface</option>
+      <option value="customer-support">Customer Support</option>
+      <option value="performance">Performance</option>
+    </select>
+
+    <p>Would you recommend our service to others?</p>
+    <input type="radio" id="recommend-yes" name="recommend" value="yes" required>
+    <label for="recommend-yes">Yes</label>
+    <input type="radio" id="recommend-no" name="recommend" value="no">
+    <label for="recommend-no">No</label>
+
+    <p>Select the platforms you use our service on:</p>
+    <input type="checkbox" id="platform-web" name="platforms" value="web">
+    <label for="platform-web">Web</label>
+    <input type="checkbox" id="platform-mobile" name="platforms" value="mobile">
+    <label for="platform-mobile">Mobile</label>
+    <input type="checkbox" id="platform-tablet" name="platforms" value="tablet">
+    <label for="platform-tablet">Tablet</label>
+
+    <label for="comments">Any comments or suggestions?</label>
+    <textarea id="comments" name="comments"></textarea>
+
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+</html>

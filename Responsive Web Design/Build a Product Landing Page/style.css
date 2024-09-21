@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+  line-height: 1.6;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002a5b;
+  padding: 1rem;
+  border-bottom: 3px solid #ffc107;
+}
+
+#header-img {
+  width: 120px;
+}
+
+#nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-bar ul li {
+  margin-left: 1.8rem;
+}
+
+.nav-link {
+  color: #ffc107;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffeb3b;
+  text-decoration: underline;
+}
+
+section {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+#features, #video-section, #pricing {
+  margin: 3rem 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 42, 91, 0.1);
+}
+
+#video {
+  width: 80%;
+  height: 450px;
+  max-width: 900px;
+  border-radius: 8px;
+  border: 3px solid #002a5b;
+  box-shadow: 0 6px 20px rgba(0, 42, 91, 0.2);
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#email {
+  padding: 0.75rem;
+  margin-bottom: 1.2rem;
+  width: 320px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+#submit {
+  padding: 0.75rem 2rem;
+  background-color: #ffc107;
+  color: #002a5b;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#submit:hover {
+  background-color: #ffeb3b;
+  transform: translateY(-2px);
+}
+
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #002a5b;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 42, 91, 0.1);
+}
+
+#header {
+  padding-top: 70px;
+}
+
+@media (max-width: 768px) {
+  #header {
+    flex-direction: column;
+  }
+
+  #nav-bar ul {
+    flex-direction: column;
+  }
+
+  #video {
+    width: 100%;
+  }
+
+  #email {
+    width: 90%;
+  }
+}

@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #e8f0fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+main {
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  max-width: 750px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 74, 124, 0.15);
+  border: 1px solid #d3e0f1;
+  transition: transform 0.3s;
+}
+
+main:hover {
+  transform: translateY(-5px);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.3rem;
+  color: #0d3b66;
+  margin-bottom: 1.5rem;
+}
+
+#img-div {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  border: 3px solid #0d3b66;
+  box-shadow: 0 6px 15px rgba(0, 74, 124, 0.2);
+}
+
+#img-caption {
+  font-size: 1.1rem;
+  color: #5f6368;
+  margin-top: 0.8rem;
+  font-style: italic;
+}
+
+#tribute-info {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+  border-left: 4px solid #0d3b66;
+  background-color: #f1f7fd;
+  padding-left: 15px;
+}
+
+#tribute-link {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #1e88e5;
+  text-decoration: none;
+  border: 2px solid #1e88e5;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#tribute-link:hover {
+  background-color: #1e88e5;
+  color: white;
+}
