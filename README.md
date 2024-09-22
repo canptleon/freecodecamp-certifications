@@ -6,7 +6,6 @@ This repository contains my solutions for the **freeCodeCamp** certification pro
 
 1. **JavaScript Algorithms and Data Structures (Beta)**
 2. **Responsive Web Design**
-3. **Front End Development Libraries**
 
 ## Project Structure
 
@@ -24,9 +23,6 @@ Projects in this certification involve solving algorithmic challenges using Java
 
 ### 2. **Responsive Web Design**
 This certification focuses on building responsive websites using HTML and CSS. Projects include building layouts, designing forms, and ensuring that the websites work seamlessly across different screen sizes.
-
-### 3. **Front End Development Libraries**
-This certification involves using front-end libraries like React, Bootstrap, and jQuery to build interactive user interfaces and applications.
 
 ## License
 
